@@ -4,5 +4,5 @@
 n = int(input("Введите число "))
 k = 0
 while 2 ** k <= n:
-    print(k, end=" ")
+    print(2 ** k, end=" ")
     k +=1
