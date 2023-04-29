@@ -15,7 +15,7 @@ list_1 = [i + 1 for i in range(massive_size)]
 print(list_1)
 number_to_find = int(input("Введите число для поиска "))
 
-for i in list_1:
+for i in range(1, len(list_1) + 1):
     if list_1[i - 1] == number_to_find:
         print(number_to_find)
 if number_to_find < list_1[0]:
