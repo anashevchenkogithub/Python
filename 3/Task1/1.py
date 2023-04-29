@@ -16,7 +16,7 @@ print(list_1)
 number_to_find = int(input("Введите число для поиска "))
 
 count = 0
-for i in list_1:
+for i in range(1, len(list_1) + 1):
     if list_1[i - 1] == number_to_find:
         count += 1
 print(count)
