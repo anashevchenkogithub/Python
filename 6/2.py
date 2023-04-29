@@ -9,6 +9,6 @@ maxim = 100
 result = []
 for i in range(len(list_1)):
     if list_1[i] >= minim and list_1[i] <= maxim:
-        result.append(list_1[i])
+        result.append(i)
     
 print(result)
